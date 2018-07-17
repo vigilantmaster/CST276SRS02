@@ -2,7 +2,7 @@
 class Context
 {
 public:
-	Context();
-	~Context();
+	virtual void ContextInterface() = 0;
+
 };
 

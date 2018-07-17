@@ -2,7 +2,8 @@
 class Strategy
 {
 public:
-	Strategy();
-	~Strategy();
+	//GOF Strategy Pattern : this is an interface
+	virtual void AlgorithmInterface() = 0;
+
 };
 

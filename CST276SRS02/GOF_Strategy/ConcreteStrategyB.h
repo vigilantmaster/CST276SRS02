@@ -4,7 +4,6 @@ class ConcreteStrategyB :
 	public Strategy
 {
 public:
-	ConcreteStrategyB();
-	~ConcreteStrategyB();
+	void AlgorithmInterface() override;
 };
 

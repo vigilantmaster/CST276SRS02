@@ -1,12 +1,11 @@
 #include "stdafx.h"
 #include "ConcreteStrategyB.h"
+#include <ostream>
+#include <iostream>
 
 
-ConcreteStrategyB::ConcreteStrategyB()
+void ConcreteStrategyB::AlgorithmInterface()
 {
-}
-
-
-ConcreteStrategyB::~ConcreteStrategyB()
-{
+	//TODO: All Implementation of the Strategy B go here
+	std::cout << "Strategy B" << std::endl;
 }
