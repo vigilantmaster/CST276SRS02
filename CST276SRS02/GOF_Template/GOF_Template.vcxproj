@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{A643ED3E-6279-4216-A5D2-E580C8D53CFB}</ProjectGuid>
+    <ProjectGuid>{E9DB0006-FA19-40CF-AB01-44F594ADE441}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>GOFStrategy</RootNamespace>
+    <RootNamespace>GOFTemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,27 +147,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ConcreteStrategyC.h" />
-    <ClInclude Include="Context.h" />
-    <ClInclude Include="Strategy.h" />
-    <ClInclude Include="ConcreteStrategyA.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="ConcreteStrategyB.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConcreteStrategyC.cpp" />
-    <ClCompile Include="Context.cpp" />
-    <ClCompile Include="Strategy.cpp" />
-    <ClCompile Include="GOF_Strategy.cpp" />
-    <ClCompile Include="ConcreteStrategyA.cpp" />
+    <ClCompile Include="GOF_Template.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="ConcreteStrategyB.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
