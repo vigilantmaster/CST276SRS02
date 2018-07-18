@@ -159,7 +159,7 @@
     <ClCompile Include="ConcreteStrategyC.cpp" />
     <ClCompile Include="Context.cpp" />
     <ClCompile Include="Strategy.cpp" />
-    <ClCompile Include="GOF_Strategy.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="ConcreteStrategyA.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
