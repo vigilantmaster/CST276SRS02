@@ -6,5 +6,8 @@ class ConcreteClass :
 public:
 	ConcreteClass();
 	~ConcreteClass();
+private:
+	void PrimitiveOperation1() override;
+	void PrimitiveOperation2() override;
 };
 
