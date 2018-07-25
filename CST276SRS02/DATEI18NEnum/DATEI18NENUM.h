@@ -12,5 +12,5 @@ public:
 	static bool is_date_valid(std::string date, std::string format);
 private:
 	static bool isDelim(char c);
-	static bool parse_stringstream(std::string inputString, std::string format) ;
+	static bool parse_stringstream(std::string inputString, std::string format ) ;
 };
