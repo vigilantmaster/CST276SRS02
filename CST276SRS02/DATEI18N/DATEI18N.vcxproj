@@ -175,6 +175,9 @@
     <ClCompile Include="YDM_Strategy.cpp" />
     <ClCompile Include="YMD_Strategy.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\DateValidatorUMLDATEI18N.pdf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

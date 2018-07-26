@@ -5,11 +5,16 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GOF_Strategy", "GOF_Strategy\GOF_Strategy.vcxproj", "{A643ED3E-6279-4216-A5D2-E580C8D53CFB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GOF_Template", "GOF_Template\GOF_Template.vcxproj", "{E9DB0006-FA19-40CF-AB01-44F594ADE441}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GOF_TemplateMethod", "GOF_Template\GOF_Template.vcxproj", "{E9DB0006-FA19-40CF-AB01-44F594ADE441}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DATEI18N", "DATEI18N\DATEI18N.vcxproj", "{707CE654-FF3E-4344-9C9B-BF679D2187C7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DATEI18NEnum", "DATEI18NEnum\DATEI18NEnum.vcxproj", "{9537ED56-35BF-4834-A97B-DB67EE654366}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{14265437-A893-4BB6-ABA2-6407494DD9C1}"
+	ProjectSection(SolutionItems) = preProject
+		..\REPORT.md = ..\REPORT.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
