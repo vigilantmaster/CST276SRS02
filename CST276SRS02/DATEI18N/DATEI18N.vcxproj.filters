@@ -21,12 +21,48 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DATEI18N.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MDY_Strategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YMD_Strategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMY_Strategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YDM_Strategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DateValidatorStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DATEI18N.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DMY_Strategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MDY_Strategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YDM_Strategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YMD_Strategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DateValidatorStrategy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
